@@ -1,5 +1,16 @@
-# 🤖 Advanced Laravel *Isn't* For The Weak 💪
+*Next Set of Laws... ASP.NET MVC (Coming Soon)*
 
+## 🤖 Advanced Vue.js *Requires* Communication, Experience and Wide & Deep Thinking 💪
+
+### 🔟 Niles' **3 Laws** for Vue.js
+
+1. **SSG-first!** Need More? Expand to SPA, **then** SSR. Don't be dictated by trends. Understand business needs and sensibly conclude an architecture.
+
+2. Even if your use case does not warrant a build step....consider it! Utilizing **SFC** (Single-File Components) is imperative to abiding by `SOLID` principles and coding in Vue's philosophy.
+
+3. _Composition API > Options API_. No Discussion needed. After **countless Vue 2 ➡️ Vue 3 migrations**, converting to the Composition API has been the single best benefit to developer productivity, code organization, and utilizing best software architecture principles.
+
+## 🤖 Advanced Laravel *Isn't* For The Weak 💪
 
 ### 🔟 Niles' **10 Rules** for Laravel:
 
