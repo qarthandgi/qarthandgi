@@ -2,7 +2,7 @@
 
 ## 🤖 Advanced Vue.js *Requires* Communication, Experience and Wide & Deep Thinking 💪
 
-### 5️⃣ Niles' **5 Laws** for Vue.js
+### 7️⃣ Niles' **7 Laws** for Vue.js
 
 1. **SSG-first!** Need More? Expand to SPA, **then** SSR. Don't be dictated by trends. Understand business needs and sensibly conclude an architecture.
 
@@ -12,7 +12,23 @@
 
 4. Utilize Pinia **early** for state management. Don't resort to hand-rolling state management composables, data will become scattered and multiple sources of truth will emerge.
 
-5. Utilize `null` and `undefined` values on Attribute Bindings to dynamically remove HTML attributes from elements. It's one of those swiss-army knife tricks that helps in advanced templating.
+5. Utilize `null` and `undefined` values on Attribute Bindings to dynamically remove HTML attributes from elements. It's one of those swiss-army knife tricks that helps in advanced templating. (Careful of the empty string `''`.)
+
+6. Dynamic Arguments are a killer feature for abstract template creation polymorphic components - particularly in complex SPA applications with high interactivity & complexity, such as 3D, blueprints, maps and more. (I'm thinking custom event listeners, defined by outside state rather than defined on the template.)
+```js
+<button type=submit @[neededEvent]="triggerPolymorphicEventHandler">Create Model</button>
+```
+
+7. Utilize generic definitions over type annoations when utilizing TypeScript with `ref()`  
+
+**Preferred**
+```js
+const name = ref<string | array>('niles')
+```
+**Only use when your type is needed in other TypeScript logic**
+```js
+const name: Ref<string | array> = ref('niles')
+```
 
    
 ## 🤖 Advanced Laravel *Isn't* For The Weak 💪
