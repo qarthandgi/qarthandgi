@@ -2,7 +2,7 @@
 
 ## 🤖 Advanced Vue.js *Requires* Communication, Experience and Wide & Deep Thinking 💪
 
-### 🔟 Niles' **3 Laws** for Vue.js
+### 4️⃣ Niles' **4 Laws** for Vue.js
 
 1. **SSG-first!** Need More? Expand to SPA, **then** SSR. Don't be dictated by trends. Understand business needs and sensibly conclude an architecture.
 
@@ -10,6 +10,9 @@
 
 3. _Composition API > Options API_. No Discussion needed. After **countless Vue 2 ➡️ Vue 3 migrations**, converting to the Composition API has been the single best benefit to developer productivity, code organization, and utilizing best software architecture principles.
 
+4. Utilize Pinia **early** for state management. Don't resort to hand-rolling state management composables, data will become scattered and multiple sources of truth will emerge.
+
+   
 ## 🤖 Advanced Laravel *Isn't* For The Weak 💪
 
 ### 🔟 Niles' **10 Rules** for Laravel:
